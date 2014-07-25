@@ -30,7 +30,8 @@
     "underscore":    ">= 1.6.0",
     "sandbox":       ">= 0.1.0",
     "cron":          ">= 1.0.0",
-    "hubot-hipchat":       "*"
+    "hubot-hipchat":       "*",
+    "hubot-heroku-deploy-notification":       "1syo/hubot-heroku-deploy-notification"
 },
 
   "engines": {

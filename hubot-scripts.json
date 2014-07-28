@@ -8,5 +8,6 @@
   "base64.coffee",
   "coderwall.coffee",
   "commandlinefu.coffee",
-  "redis-brain.coffee"
+  "redis-brain.coffee",
+  "http-post-say.coffee"
 ]

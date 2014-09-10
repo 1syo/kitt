@@ -1,1 +1,7 @@
-["hubot-heroku-deploy-notification"]
+[
+  "hubot-heroku-deploy-notifier",
+  "hubot-airbrake-notifier",
+  "hubot-jenkins-notifier",
+  "hubot-pivotaltracker-notifier",
+  "hubot-travisci-notifier"
+]

@@ -1,21 +1,20 @@
 # Description
-#   <description of the scripts functionality>
+#   pinger
 #
 # Dependencies:
-#   "<module name>": "<module version>"
+#   None
 #
 # Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
+#   None
 #
 # Commands:
-#   hubot <trigger> - <what the respond trigger does>
-#   <trigger> - <what the hear trigger does>
+#   None
 #
 # Notes:
-#   <optional notes required for the script>
+#   None
 #
 # Author:
-#   <github username of the original script author>
+#   takahashi@1syo.net
 cronJob = require('cron').CronJob
 _ = require('underscore')
 
@@ -43,5 +42,6 @@ module.exports = (robot) ->
           robot.send {room: process.env.HUBOT_HPING_ROOM}, message
         else
           console.log message
+        res.end ""
 
   ).start()

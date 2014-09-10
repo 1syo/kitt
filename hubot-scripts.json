@@ -1,13 +1,5 @@
 [
   "bang-bang.coffee",
-  "ruby.coffee",
-  "rubygems.coffee",
-  "javascript-sandbox.coffee",
-  "github-status.coffee",
-  "heroku-status.coffee",
-  "base64.coffee",
-  "coderwall.coffee",
-  "commandlinefu.coffee",
   "redis-brain.coffee",
   "http-post-say.coffee"
 ]

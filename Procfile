@@ -1,1 +1,1 @@
-web: bin/hubot -a hipchat -n kitt -l /
+web: bin/hubot -a hipchat -n kitt

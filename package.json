@@ -31,8 +31,12 @@
     "sandbox":       ">= 0.1.0",
     "cron":          ">= 1.0.0",
     "hubot-hipchat":       "*",
-    "hubot-heroku-deploy-notification":       "1syo/hubot-heroku-deploy-notification"
-},
+    "hubot-heroku-deploy-notifier":       "1syo/hubot-heroku-deploy-notifier",
+    "hubot-pivotaltracker-notifier":      "1syo/hubot-pivotaltracker-notifier",
+    "hubot-jenkins-notifier":        "1syo/hubot-jenkins-notifier",
+    "hubot-travisci-notifier":       "1syo/hubot-travisci-notifier",
+    "hubot-airbrake-notifier":       "1syo/hubot-airbrake-notifier"
+  },
 
   "engines": {
     "node": ">= 0.8.x",

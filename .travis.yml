@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.10'
+script:
+- npm run lint
+deploy:
+  provider: heroku
+  api_key:
+    secure: qGhg1SRnude9nUTwoIoCb/CenSlpeHGq/KCci6WrA/QFLT/oJFcj963Q7V4DMQMInsVWVwfiAjlUh8tU/QTh7mTYukPG1V1iAv4qcLJag56zqcDWGH9LkkoML9ayvyWtdOnlUn6c0J/eZ7gPNEIl8MQTalAfHVAunBMwDsDNuKQ=
+  app: kitt-1syo-net
+  on:
+    repo: 1syo/kitt
+notifications:
+  webhooks:
+    secure: efGftuAHShqD1e2pZK1bLQk85U6CcthRKZB3zBs3Zi9PA5V5FgfpNyiqCRaLzFg2fuN5v54/hpUzImSLcEglZR/SZMxDYByREO/OTQLOA82RCGLeMPDimsnGMhq32ODLFZJAatlMRMLu/PFZJg4k9cSGhMsc1R0ohU5F2/GKjoE=

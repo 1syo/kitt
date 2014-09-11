@@ -34,8 +34,8 @@
     "hubot-heroku-deploy-notifier":       "1syo/hubot-heroku-deploy-notifier",
     "hubot-pivotaltracker-notifier":      "1syo/hubot-pivotaltracker-notifier",
     "hubot-jenkins-notifier":        "1syo/hubot-jenkins-notifier",
-    "hubot-travisci-notifier":       "1syo/hubot-travisci-notifier",
-    "hubot-airbrake-notifier":       "1syo/hubot-airbrake-notifier"
+    "hubot-travisci-notifier":       "*",
+    "hubot-airbrake-notifier":       "*"
   },
 
   "engines": {

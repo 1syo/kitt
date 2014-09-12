@@ -26,7 +26,6 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "underscore":    ">= 1.6.0",
     "sandbox":       ">= 0.1.0",
-    "cron":          ">= 1.0.0",
     "hubot-hipchat":       "*",
     "hubot-heroku-deploy-notifier":       "1syo/hubot-heroku-deploy-notifier",
     "hubot-pivotaltracker-notifier":      "1syo/hubot-pivotaltracker-notifier",

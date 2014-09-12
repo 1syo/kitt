@@ -1,5 +1,6 @@
 [
   "bang-bang.coffee",
   "redis-brain.coffee",
-  "http-post-say.coffee"
+  "http-post-say.coffee",
+  "jenkins.coffee"
 ]

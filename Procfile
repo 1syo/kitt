@@ -1,1 +1,1 @@
-web: bin/hubot -a hipchat -n kitt
+web: bin/hubot -a campfire

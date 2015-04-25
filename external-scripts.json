@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-youtube",
   "hubot-ifttt-notifier",
+  "hubot-heroku-deploy-notifier",
   "hubot-kenchankunsan"
 ]

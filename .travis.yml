@@ -9,4 +9,4 @@ script:
 notifications:
   email: false
   webhooks:
-    secure: "Txvkj4pQAGv9rk3yqxW5uPJ6Ceyh4d23xALEdwUqrH+oWcqKq4rtjTNwn5RQhh8qWdifmG9YzVY9NNsp8jSlONf7ez8Eosb/8+NDkEhrrUnjIcqX5QWNUF9HbxpG7+JPS/tdTWO9e3yyLhdnmtMs39Gldehrqz0+cOLbtn18hz8="
+    secure: "q4zYeC78m22WNdaL9FC7Mz6P3AEZJCW7Qzm3MIrMuBZAyGgdoObdF/mPLS51qdAn/fzTbWgE9/MmgU43OjC8XuWGH4pDrfLKfhUBAJZozBNPOeQA07Pxhzm9n7G6UnhyI8/fHuJER3mYCXPMr8kE1wWS/hZPWyEoi+y3s+yB468="

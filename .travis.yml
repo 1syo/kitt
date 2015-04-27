@@ -1,10 +1,12 @@
 language: node_js
 node_js:
-- '0.10'
-- '0.12'
+  - '0.10'
+  - '0.12'
+before_script:
+  - npm install -g coffeelint
 script:
-- npm run lint
+  - coffeelint scripts external-scripts.json hubot-scripts.json package.json
 notifications:
   email: false
   webhooks:
-    secure: efGftuAHShqD1e2pZK1bLQk85U6CcthRKZB3zBs3Zi9PA5V5FgfpNyiqCRaLzFg2fuN5v54/hpUzImSLcEglZR/SZMxDYByREO/OTQLOA82RCGLeMPDimsnGMhq32ODLFZJAatlMRMLu/PFZJg4k9cSGhMsc1R0ohU5F2/GKjoE=
+    secure: "Txvkj4pQAGv9rk3yqxW5uPJ6Ceyh4d23xALEdwUqrH+oWcqKq4rtjTNwn5RQhh8qWdifmG9YzVY9NNsp8jSlONf7ez8Eosb/8+NDkEhrrUnjIcqX5QWNUF9HbxpG7+JPS/tdTWO9e3yyLhdnmtMs39Gldehrqz0+cOLbtn18hz8="

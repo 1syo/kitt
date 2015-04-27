@@ -23,6 +23,7 @@
     "hubot-ifttt-notifier": "1syo/hubot-ifttt-notifier",
     "hubot-heroku-deploy-notifier": "1syo/hubot-heroku-deploy-notifier",
     "hubot-travisci-notifier": "1syo/hubot-travisci-notifier",
+    "hubot-airbrake-notifier": "1syo/hubot-airbrake-notifier",
     "hubot-kenchankunsan": "1syo/hubot-kenchankunsan"
   },
   "engines": {

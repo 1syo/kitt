@@ -13,5 +13,6 @@
   "hubot-ifttt-notifier",
   "hubot-heroku-deploy-notifier",
   "hubot-travisci-notifier",
+  "hubot-airbrake-notifier",
   "hubot-kenchankunsan"
 ]

@@ -1,32 +1,33 @@
 {
   "name": "kitt",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "author": "TAKAHASHI Kazunari <takahashi@1syo.net>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "hubot": "^2.12.0",
-    "hubot-hipchat": "latest",
-    "hubot-diagnostics": "0.0.1",
-    "hubot-google-images": "^0.1.4",
-    "hubot-google-translate": "^0.1.0",
-    "hubot-help": "^0.1.1",
-    "hubot-heroku-keepalive": "0.0.4",
-    "hubot-maps": "0.0.2",
-    "hubot-pugme": "^0.1.0",
-    "hubot-redis-brain": "0.0.2",
-    "hubot-rules": "^0.1.0",
-    "hubot-scripts": "^2.5.16",
-    "hubot-shipit": "^0.2.0",
-    "hubot-youtube": "^0.1.2",
+    "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-idobata": "latest",
+    "hubot-diagnostics": "latest",
+    "hubot-google-images": "latest",
+    "hubot-google-translate": "latest",
+    "hubot-help": "latest",
+    "hubot-heroku-keepalive": "latest",
+    "hubot-maps": "latest",
+    "hubot-pugme": "latest",
+    "hubot-redis-brain": "latest",
+    "hubot-rules": "latest",
+    "hubot-shipit": "latest",
+    "hubot-youtube": "latest",
     "hubot-lets-party": "latest",
-    "hubot-ifttt-notifier": "1syo/hubot-ifttt-notifier",
-    "hubot-heroku-deploy-notifier": "1syo/hubot-heroku-deploy-notifier",
-    "hubot-travisci-notifier": "1syo/hubot-travisci-notifier",
-    "hubot-airbrake-notifier": "1syo/hubot-airbrake-notifier#url",
-    "hubot-kenchankunsan": "1syo/hubot-kenchankunsan"
+    "hubot-kenchankunsan": "1syo/hubot-kenchankunsan",
+    "cron": "latest"
   },
   "engines": {
-    "node": "0.12.x"
+    "node": ">= 0.12.x",
+    "npm": ">= 2.x.x"
+  },
+  "scripts": {
+    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP REDIS_URL=redis://:$REDISCLOUD_PASSWORD@$REDISCLOUD_HOST:$REDISCLOUD_PORT bin/hubot -n kitt -a idobata"
   }
 }

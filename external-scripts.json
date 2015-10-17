@@ -10,10 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-youtube",
-  "hubot-lets-party",
-  "hubot-ifttt-notifier",
-  "hubot-heroku-deploy-notifier",
-  "hubot-travisci-notifier",
-  "hubot-airbrake-notifier",
-  "hubot-kenchankunsan"
+  "hubot-kenchankunsan",
+  "hubot-lets-party"
 ]

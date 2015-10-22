@@ -1,3 +1,6 @@
+# Description:
+#   Example scripts for you to examine and try out.
+#
 cronJob = require('cron').CronJob
 
 module.exports = (robot) ->

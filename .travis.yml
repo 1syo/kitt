@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - '0.10'
+  - '4.1'
   - '0.12'
 before_script:
   - npm install -g coffeelint
@@ -9,4 +9,14 @@ script:
 notifications:
   email: false
   webhooks:
-    secure: "q4zYeC78m22WNdaL9FC7Mz6P3AEZJCW7Qzm3MIrMuBZAyGgdoObdF/mPLS51qdAn/fzTbWgE9/MmgU43OjC8XuWGH4pDrfLKfhUBAJZozBNPOeQA07Pxhzm9n7G6UnhyI8/fHuJER3mYCXPMr8kE1wWS/hZPWyEoi+y3s+yB468="
+    secure: hk7Yo9I68MmWi5XhVVXZR+qLzFfqBBBnBBoPPvOpQV4D4/I9SOiorzPmqmaR3UU0J0jtmeCvBMu4wwO8LB3GPBdDGhemIi5mka1dR/TR5kBk9R3PQYB5Wq6DC/9HBjJrCDc0y2p0XZC/qW9c2d80xbYaP+iO7JVK5K1yZRiy8bQ=
+deploy:
+  provider: openshift
+  user: takahashi@1syo.net
+  password:
+    secure: fFjea1f0yDlH/qUb67k45JAKfZFBWjH0m8B7nnl6By0Ge9GS5wmzjNF8DHyUzpEpwCCOVNa+86g/VgqopcEqfiFyD+JPXyw3fxNifHPdN5PV9n6c7jwO9kCurh+KQ983OY8rJPXFSVQuRtfUimkq+tatg/pRIVOVonYl6om9prc=
+  app: hubot
+  domain: 1syo
+  on: master
+  repo: 1syo/kitt
+sudo: false

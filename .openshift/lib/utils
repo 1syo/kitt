@@ -1,0 +1,2 @@
+export OPENSHIFT_NODEJS_VERSION=0.12
+export PATH="$node_bin_path:${PATH}"

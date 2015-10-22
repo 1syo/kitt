@@ -2,4 +2,14 @@
 
 set -e
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+export PORT="${OPENSHIFT_NODEJS_PORT}"
+export BIND_ADDRESS="${OPENSHIFT_NODEJS_IP}"
+export TZ=Asia/Tokyo
+
+export REDIS_URL="redis://:$REDISCLOUD_PASSWORD@$REDISCLOUD_HOSTNAME:$REDISCLOUD_PORT"
+
+export HUBOT_HEROKU_KEEPALIVE_INTERVAL=0
+export HEROKU_URL="http://$OPENSHIFT_APP_DNS/"
+export HUBOT_LETS_PARTY_BE_QUIET=true
+
 exec node_modules/.bin/hubot "$@"

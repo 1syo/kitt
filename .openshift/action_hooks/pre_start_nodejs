@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "Execute pre_restart nodejs hook"
-export TZ='Asia/Tokyo'
-
-echo "$TZ"
-echo `date`

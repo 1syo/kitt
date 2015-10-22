@@ -17,6 +17,8 @@ deploy:
     secure: fFjea1f0yDlH/qUb67k45JAKfZFBWjH0m8B7nnl6By0Ge9GS5wmzjNF8DHyUzpEpwCCOVNa+86g/VgqopcEqfiFyD+JPXyw3fxNifHPdN5PV9n6c7jwO9kCurh+KQ983OY8rJPXFSVQuRtfUimkq+tatg/pRIVOVonYl6om9prc=
   app: hubot
   domain: 1syo
-  on: master
+  on:
+    branch: master
   repo: 1syo/kitt
+  node: '4.1'
 sudo: false

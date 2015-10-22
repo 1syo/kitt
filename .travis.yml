@@ -19,6 +19,6 @@ deploy:
   domain: 1syo
   on:
     branch: master
-  repo: 1syo/kitt
-  node: '4.1'
+    node: '0.12'
+    repo: 1syo/kitt
 sudo: false
